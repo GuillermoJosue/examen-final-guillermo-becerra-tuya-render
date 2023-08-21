@@ -1,0 +1,33 @@
+
+@server = http://localhost:8080
+@libros = {{server}}/api/libros
+@autores = {{server}}/api/autores
+@publicaciones = {{server}}/api/publicaciones
+###
+GET {{libros}}/1
+###
+POST {{libros}}
+Content-Type: application/json
+
+{
+  "nombre" : "Juego de Tronos",
+  "categoria" : "Accion",
+  "descripcion" : "Medieval, aventura"
+}
+###
+GET {{autores}}
+###
+GET {{autores}}/1
+###
+PATCH {{autores}}/1
+Content-Type: application/json
+
+{
+  "nombre" : "George R. R. Martin"
+}
+###
+GET {{server}}/api/editoriales/1
+###
+GET {{server}}/api/publicaciones
+###
+GET {{server}}/api/editoriales/1/formacion
