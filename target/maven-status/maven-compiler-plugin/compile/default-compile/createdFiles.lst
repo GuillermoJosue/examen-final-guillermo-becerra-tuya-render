@@ -1,0 +1,11 @@
+com\example\demo\DemoApplication.class
+com\example\demo\DatabaseLoader.class
+com\example\demo\LibroRepository.class
+com\example\demo\AutorRepository.class
+com\example\demo\Autor.class
+com\example\demo\Libro.class
+com\example\demo\PublicacionRepository.class
+com\example\demo\Publicacion.class
+com\example\demo\Editorial.class
+com\example\demo\HomeController.class
+com\example\demo\EditorialRepository.class
